@@ -1,5 +1,8 @@
+<script setup>
+import TodoForm from '../components/TodoForm.vue'
+</script>
+
 <template>
-    <main>
-        <TheTodoList />
-    </main>
+        hello
+        <TodoForm />
 </template>

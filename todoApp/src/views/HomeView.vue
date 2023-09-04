@@ -1,9 +1,10 @@
-<script setup lang="ts">
+<script setup>
 import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main>
+  <v-app>
     <TheWelcome />
-  </main>
+    <RouterView />
+  </v-app>
 </template>
